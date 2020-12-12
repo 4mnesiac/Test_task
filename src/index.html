@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AbakPress Test</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="root">
+        <section class="products">
+            <ul class="products__list">
+                <li class="product">
+                    <div class="product__container">
+                        <img class="product__image"
+                            src="https://st10.styapokupayu.ru/images/product/026/345/023_big.jpg">
+                        <div class="product__content">
+                            <h2 class="product__heading">Двухместный диван b:rattan nebraska sofa 2 94949494221</h2>
+                            <span class="product__price">17 700 руб.</span>
+                        </div>
+                        <div class="product__controls">
+                            <button class="product__btn product__btn_orderBtn">Заказать</button>
+                            <button class="product__btn product__btn_addToCartBtn">В корзину</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div class="order-popup">
+            <div class="order-popup__container">
+                <h3 class="order-popup__heading">Диван 22222 22222 Двухместныdsdsdsdsdddd ddddddddddddd
+                    dddddddddddddddddddddddddddddd ddddsdsй дудуда</h3>
+                <img src="/assets/close.svg" class="popup__close" alt="Закрыть окно" />
+                <figure class="order-popup__info">
+                    <img class="order-popup__image"
+                        src="https://st10.styapokupayu.ru/images/product/026/345/023_big.jpg"
+                        alt="Изображение товара" />
+                    <figcaption class="order-popup__price">12 133 руб.</figcaption>
+                </figure>
+
+                <div class="order-popup__form-container">
+                    <form class="order-popup__form" name="order">
+                        <div class="order-popup__comment">
+                            <label for="order-comment">Комментарий к заказу:</label>
+                            <textarea class="order-popup__input order-popup__input_type_comment" id="order-comment"
+                                name="order-comment" cols="55">
+                            </textarea>
+                        </div>
+                </div>
+                <label class="order-popup__phone-label" for="order-phone">Номер телефона*:</label>
+                <div class="order-popup__form-container">
+                    <div class="order-popup__phone">
+                        <input class="order-popup__input order-popup__input_type_tel" type="tel" name="order-phone"
+                            id="order-phone" required />
+                        <button type="submit" class="product__btn product__btn_orderBtn">Отправить</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src='./index.js' type="module"></script>
+</body>
+
+</html>
